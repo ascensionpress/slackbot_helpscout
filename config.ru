@@ -1,4 +1,7 @@
 require File.expand_path("../app", __FILE__)
+require 'dotenv'
+
+Dotenv.load
 
 $stdout.sync = true
 

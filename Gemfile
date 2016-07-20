@@ -6,6 +6,7 @@ gem 'sinatra'
 gem 'httparty'
 gem 'activesupport'
 gem 'slack-notifier'
+gem 'dotenv'
 
 group :development do
   gem 'thin'
